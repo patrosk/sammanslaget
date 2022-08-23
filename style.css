@@ -1,8 +1,56 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: 'Stone';
+  src: url(/Stone\ Sans\ Bold.woff);
+}
+:root {
+  --pink: #f7c5c6;
+  --white: #fcfcfc;
+  --beige: #f0e9df;
+}
 body {
   margin: 0;
   box-sizing: border-box;
-  background-color: rgb(14, 28, 76);
-  color: white;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: var(--beige);
+  color: black;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: 'Stone';
+}
+.game-section {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--pink);
+}
+.page-section {
+  background-image: linear-gradient(var(--pink), var(--beige));
+}
+.projects {
+  display: flex;
+}
+.projects .card {
+  width: 300px;
+  background-color: var(--white);
+}
+.projects img {
+  width: 100%;
+}
+.about .card {
+  width: 80%;
+}
+.about .card img {
+  width: 15rem;
+  border-radius: 15rem;
 }
