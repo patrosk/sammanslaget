@@ -25,6 +25,7 @@ header {
 }
 h1 {
   font-size: 3rem;
+  text-align: center;
 }
 h1,
 h2,
@@ -72,6 +73,9 @@ h4 {
   flex-direction: column;
   align-items: center;
 }
+.about p {
+  margin: 0 1rem;
+}
 .about-us {
   display: flex;
   justify-content: center;
@@ -109,9 +113,14 @@ footer {
   background-color: var(--beige);
   height: 20rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+}
+@media screen and (min-width: 700px) {
+  footer {
+    flex-direction: row;
+  }
 }
 footer p {
   font-size: 2rem;
@@ -121,6 +130,6 @@ footer p {
 .yrgo {
   height: 6rem;
 }
-.björk {
+.bjork {
   height: 9rem;
 }
