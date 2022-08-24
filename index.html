@@ -16,9 +16,28 @@
     <section class="main">
       <section class="game-section">
         <!-- SECTION WHERE THE GAME IS DISPLAYED -->
+        <div id="unity-container" class="unity-desktop">
+          <canvas id="unity-canvas" width="960" height="600"></canvas>
+          <div id="unity-loading-bar">
+            <div id="unity-logo"></div>
+            <div id="unity-progress-bar-empty">
+              <div id="unity-progress-bar-full"></div>
+            </div>
+          </div>
+          <div id="unity-warning"></div>
+          <div id="unity-footer">
+            <div id="unity-webgl-logo"></div>
+            <div id="unity-fullscreen-button"></div>
+            <div id="unity-build-title"></div>
+          </div>
+        </div>
         <h1>Keps eller Kaffe?</h1>
         <div class="info">
-          <p>Klicka här för att starta!</p>
+          <p>
+            I det här spelet så kommer du att använda dig utav Upp och Ner
+            knappen. För att börja, tryck på Ner knappen. Använda Upp knappen om
+            du behöver åka upp igen.
+          </p>
         </div>
         <div class="game">
           <canvas></canvas>
@@ -88,9 +107,10 @@
           <!-- ABOUT THIS PROJECT -->
           <h2>Om projektet</h2>
 
-          <p>
-            Hur vi kom fram till idén och vad vi vill uppnå med vår digitala
-            upplevelse plus målgrupp.
+          <p class="about-project">
+            Temat till det här projektet är Theory of Change. Vi lekte med orden
+            och tolkade Change som småpengar. I den här interaktiva digitala
+            upplevelsen vill vi belysa hur små medel kan bidra till förändring.
           </p>
           <div class="about-us">
             <!-- ABOUT US  -->
