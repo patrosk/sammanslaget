@@ -42,11 +42,11 @@ var container = document.querySelector("#unity-container");
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Build/Sammanslaget build.loader.js";
+      var loaderUrl = buildUrl + "/Sammanslaget build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Build/Sammanslaget build.data.br",
-        frameworkUrl: buildUrl + "/Build/Sammanslaget build.framework.js.br",
-        codeUrl: buildUrl + "/Build/Sammanslaget build.wasm.br",
+        dataUrl: buildUrl + "/Sammanslaget build.data.unityweb",
+        frameworkUrl: buildUrl + "/Sammanslaget build.framework.js.unityweb",
+        codeUrl: buildUrl + "/Sammanslaget build.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Sammanslaget 2022",
