@@ -66,6 +66,10 @@ h4 {
   flex-direction: column;
   align-items: center;
 }
+canvas {
+  width: 320px;
+  height: 200px;
+}
 .page-section {
   background-image: linear-gradient(var(--pink), var(--beige));
   display: flex;
@@ -155,21 +159,6 @@ footer {
   align-items: center;
   justify-content: center;
 }
-@media screen and (min-width: 700px) {
-  .logos {
-    flex-direction: row;
-  }
-  header {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-  .info p {
-    margin: 1rem 1rem 2rem;
-  }
-  .projects {
-    margin-top: 10rem;
-  }
-}
 footer p {
   font-size: 2rem;
   padding: 2rem;
@@ -199,4 +188,34 @@ header a:hover,
 .bjork:hover,
 #topButton:hover {
   opacity: 80%;
+}
+
+@media screen and (min-width: 700px) {
+  .logos {
+    flex-direction: row;
+  }
+  header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .info p {
+    margin: 1rem 1rem 2rem;
+  }
+  .game-section {
+    height: auto;
+  }
+  canvas {
+    width: 700px;
+    height: 438px;
+  }
+  .projects {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  canvas {
+    width: 960px;
+    height: 600px;
+  }
 }
