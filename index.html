@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
     <title>Keps eller Kaffe?</title>
   </head>
   <body>
+    <header>
+      <a href="/">Keps eller Kaffe?</a>
+      <a href="#about">Om</a>
+    </header>
     <section class="main">
       <section class="game-section">
         <!-- SECTION WHERE THE GAME IS DISPLAYED -->
@@ -79,7 +84,7 @@
           </div>
         </div>
 
-        <div class="about">
+        <div id="about" class="about">
           <!-- ABOUT THIS PROJECT -->
           <h2>Om projektet</h2>
 
@@ -125,11 +130,22 @@
             </div>
 
             <div class="card">
-              <img src="" alt="" />
+              <img src="/madeleine.jpg" alt="" />
               <h3>Madeleine</h3>
               <h4>Game Artist</h4>
-              <h5>länk till linkedin/mejl/github</h5>
-              <p>Vad jag gjort i projektet</p>
+              <h5>
+                <a href="https://www.artstation.com/cherraluna"
+                  >www.artstation.com/cherraluna</a
+                >
+              </h5>
+              <p>
+                Jag är gruppens illustratör och har tillfört grafiken till detta
+                projekt. Jag brukar normalt inte rita i denna stil så det har
+                varit lite klurigt att lista ut. Det svåraste har nog varit att
+                snabbt få ut idéer och snabbt göra bilder, eftersom tiden vi
+                fått att utföra projektet har varit så kort. Men alla har varit
+                snabba på pucken och jobbat på med flit.
+              </p>
             </div>
 
             <div class="card">
@@ -164,9 +180,18 @@
         </div>
       </section>
       <footer>
-        <img class="yrgo" src="/yrgo.png" alt="" />
-        <p>X</p>
-        <img class="bjork" src="/bjork.PNG" alt="" />
+        <div class="logos">
+          <a href="https://www.yrgo.se/"
+            ><img class="yrgo" src="/yrgo.png" alt=""
+          /></a>
+          <p>X</p>
+          <a href="https://bjorkafrihet.se/"
+            ><img class="bjork" src="/bjork.PNG" alt=""
+          /></a>
+        </div>
+        <button onclick="topFunction()" id="topButton" title="Go to top">
+          tillbaka till sidans topp
+        </button>
       </footer>
     </section>
     <script src="/app.js"></script>
