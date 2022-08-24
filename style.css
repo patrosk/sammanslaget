@@ -55,7 +55,8 @@ h4 {
   margin: 0;
 }
 .info p {
-  margin: 1rem;
+  margin: 1rem 1rem 2rem;
+  text-align: center;
 }
 .game-section {
   width: 100%;
@@ -75,7 +76,6 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 25rem;
 }
 .projects .card {
   max-width: 25rem;
@@ -162,6 +162,12 @@ footer {
   header {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  .info p {
+    margin: 1rem 1rem 2rem;
+  }
+  .projects {
+    margin-top: 10rem;
   }
 }
 footer p {
