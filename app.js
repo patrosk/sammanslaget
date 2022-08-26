@@ -47,7 +47,7 @@ var container = document.querySelector("#unity-container");
         dataUrl: buildUrl + "/Sammanslaget fredag build.data.unityweb",
         frameworkUrl: buildUrl + "/Sammanslaget fredag build.framework.js.unityweb",
         codeUrl: buildUrl + "/Sammanslaget fredag build.wasm.unityweb",
-        streamingAssetsUrl: "StreamingAssets",
+        streamingAssetsUrl: "/StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Sammanslaget 2022",
         productVersion: "1.0",
